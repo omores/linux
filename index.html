@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en_US" data-theme-mode="dark" data-light-theme="daylight" data-dark-theme="midnight">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" id="baseStyle" href="stage/build/export/base.css?2.10.11"/>
+    <link rel="stylesheet" type="text/css" id="themeDefaultStyle" href="appearance/themes/midnight/theme.css?2.10.11"/>
+    
+    <title>C:\Users\kvazar\github\linux\archlinux - SiYuan  v2.10.11</title>
+    <style>
+        body {background-color: var(--b3-theme-background);color: var(--b3-theme-on-background)}
+        .b3-typography, .protyle-wysiwyg, .protyle-title {font-size:16px !important}
+.b3-typography code:not(.hljs), .protyle-wysiwyg span[data-type~=code] { font-variant-ligatures: none }
+.li > .protyle-action {height:34px;line-height: 34px}
+.protyle-wysiwyg [data-node-id].li > .protyle-action ~ .h1, .protyle-wysiwyg [data-node-id].li > .protyle-action ~ .h2, .protyle-wysiwyg [data-node-id].li > .protyle-action ~ .h3, .protyle-wysiwyg [data-node-id].li > .protyle-action ~ .h4, .protyle-wysiwyg [data-node-id].li > .protyle-action ~ .h5, .protyle-wysiwyg [data-node-id].li > .protyle-action ~ .h6 {line-height:34px;}
+.protyle-wysiwyg [data-node-id].li > .protyle-action:after {height: 16px;width: 16px;margin:-8px 0 0 -8px}
+.protyle-wysiwyg [data-node-id].li > .protyle-action svg {height: 14px}
+.protyle-wysiwyg [data-node-id].li:before {height: calc(100% - 34px);top:34px}
+.protyle-wysiwyg [data-node-id] [spellcheck] {min-height:26px;}
+.protyle-wysiwyg [data-node-id] {}
+.protyle-wysiwyg .li {min-height:34px}
+.protyle-gutters button svg {height:26px}
+.protyle-wysiwyg img.emoji, .b3-typography img.emoji {width:18px}
+.protyle-wysiwyg .h1 img.emoji, .b3-typography h1 img.emoji {width:35px}
+.protyle-wysiwyg .h2 img.emoji, .b3-typography h2 img.emoji {width:31px}
+.protyle-wysiwyg .h3 img.emoji, .b3-typography h3 img.emoji {width:27px}
+.protyle-wysiwyg .h4 img.emoji, .b3-typography h4 img.emoji {width:25px}
+.protyle-wysiwyg .h5 img.emoji, .b3-typography h5 img.emoji {width:22px}
+.protyle-wysiwyg .h6 img.emoji, .b3-typography h6 img.emoji {width:20px}
+.b3-typography:not(.b3-typography--default), .protyle-wysiwyg, .protyle-title, .protyle-title__input{font-family: "mr_InverkrugOutline", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", "Hiragino Sans GB", "Microsoft Yahei", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", "EmojiSymbols" !important;}
+    </style>
+</head>
+<body>
+<div class="b3-typography" style="max-width: 800px;margin: 0 auto;" id="preview"><h1 id="20231026210215-cvl3ag2" updated="20231026210215">archlinux</h1>
+<p id="20231026210215-pm9ueii" updated="20231026210215">arch linux -- независимый дистрибутив GNULinux для опытных пользователей, оптимизированный для архитектуры x86-64, который стремится предоставить последние «новейшие» версии программ, следуя модели rolling release.</p>
+<p id="20231026210215-q3c23hw" updated="20231026210215">‍</p>
+<p id="20231026210215-ehzvf50" updated="20231026210215"><a href="https://archlinux.org">оффициальный </a><a href="https://archlinux.org/">сайт</a></p>
+<p id="20231026210215-q3aw8ys" updated="20231026210215">‍</p>
+<h1 id="20231026210215-jzdcw02" updated="20231026210215">руководство по arch</h1>
+<h1 id="20231026210215-9yvwo56" updated="20231026210215">основные особенности arch</h1>
+<p id="20231026210215-bhj2tr7" updated="20231026210215">Философия Arch Linux базируется на нескольких основных принципах<a href="https://ru.wikipedia.org/wiki/Arch_Linux#cite_note-21">[21]</a>:</p>
+<ul id="20231026210215-um1xln5" updated="20231026210215">
+<li id="20231026210215-du9sa6j" updated="20231026210215">
+<p id="20231026210215-v1d8cen" updated="20231026210215">Простота</p>
+</li>
+<li id="20231026210215-vusakgg" updated="20231026210215">
+<p id="20231026210215-iep0wzb" updated="20231026210215">Современность</p>
+</li>
+<li id="20231026210215-mme0j4o" updated="20231026210215">
+<p id="20231026210215-3jquuc8" updated="20231026210215">Прагматизм</p>
+</li>
+<li id="20231026210215-jg6w1ci" updated="20231026210215">
+<p id="20231026210215-izurle6" updated="20231026210215">Нацеленность на определённых пользователей (<span data-type="em">user-centric,</span> а не <span data-type="em">user-friendly</span>)</p>
+</li>
+<li id="20231026210215-pe11rqc" updated="20231026210215">
+<p id="20231026210215-m6huhij" updated="20231026210215">Гибкость</p>
+</li>
+</ul>
+<p id="20231026210215-np85te1" updated="20231026210215">Так разработчики описывают основные особенности и принципы, на которых базируется Arch<a href="https://ru.wikipedia.org/wiki/Arch_Linux#cite_note-22">[22]</a>:</p>
+<ul id="20231026210215-j1t4e17" updated="20231026210215">
+<li id="20231026210215-3fqbypd" updated="20231026210215">
+<p id="20231026210215-55oud3y" updated="20231026210215">Простота. (Заметим, что под простотой подразумевается не простота использования ОС, а простота её внутренней организации: минимализм, лаконичность, следование принципам <a href="https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF)">KISS</a> &quot;KISS (принцип)&quot;) и <a href="https://ru.wikipedia.org/wiki/%D0%A4%D0%B8%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D0%B8%D1%8F_UNIX" title="Философия UNIX">Unix-way</a>.)</p>
+</li>
+<li id="20231026210215-obm43lm" updated="20231026210215">
+<p id="20231026210215-267tgbp" updated="20231026210215">Рассчитана не на новичков, а на более опытных пользователей.</p>
+</li>
+<li id="20231026210215-g2kmtcm" updated="20231026210215">
+<p id="20231026210215-19fbswu" updated="20231026210215">Джадд Винет основал этот дистрибутив, руководствуясь своим видением идеального дистрибутива и желая вернуть хоть что-то сообществу свободного программного обеспечения, после того как столько заимствовал из него.</p>
+</li>
+<li id="20231026210215-n32wgrg" updated="20231026210215">
+<p id="20231026210215-gafwb47" updated="20231026210215">Цель — сделать Arch совершенной основой. Основой, не включающей в себя причудливых утилит и автонастроек, но с утилитами для ручной настройки и некоторыми функциями для пользователей, чтобы они могли продолжить дальнейшую разработку сами.</p>
+</li>
+<li id="20231026210215-nc6eoy5" updated="20231026210215">
+<p id="20231026210215-p118y7u" updated="20231026210215">«Вернуть хоть что-то сообществу свободного программного обеспечения» — это свободный дар. Когда вы получаете подарок от кого-либо, это обычно подразумевает, что вам придется что-либо отдать взамен. Так что идеи, предложения, утилиты от пользователей приветствуются.</p>
+</li>
+<li id="20231026210215-tszpv1w" updated="20231026210215">
+<p id="20231026210215-s8uyvbv" updated="20231026210215">Есть две стороны Arch Linux: (1) сторона разработчика и (2) сторона пользователя. Не надейтесь объединить обе стороны, но создайте между ними взаимную связь, тогда каждый может получить то, что он хочет добавить к своей системе.</p>
+</li>
+<li id="20231026210215-4qi9mzb" updated="20231026210215">
+<p id="20231026210215-gri46to" updated="20231026210215">Не позволяйте утилитам настройки или GUI управлять системой, она должна управляться пользователем. Нет ничего плохого в GUI до тех пор, пока графический интерфейс соответствует этим принципам.</p>
+</li>
+<li id="20231026210215-fip8q3m" updated="20231026210215">
+<p id="20231026210215-lf0zbpt" updated="20231026210215">Не будьте зависимы от того, что предлагают утилиты. Когда вы пишете или выбираете инструмент, он должен быть написан на читаемом языке программирования (KISS), чтобы позволить пользователям изменить его, если они захотят.</p>
+</li>
+<li id="20231026210215-4jfes0p" updated="20231026210215">
+<p id="20231026210215-qf2jbwk" updated="20231026210215">Ядро разработки Arch Linux не будет представлено какими-либо «дружественными» GUI/утилитами в ближайшем будущем.</p>
+</li>
+<li id="20231026210215-gb9e2iv" updated="20231026210215">
+<p id="20231026210215-5oumaeo" updated="20231026210215">Arch будет тем, что вы из него сделаете.</p>
+</li>
+<li id="20231026210215-1kh8qvz" updated="20231026210215">
+<p id="20231026210215-yxtuhqv" updated="20231026210215">Слово «проще» в Arch рассматривается по-другому, нежели в других дистрибутивах. Чтобы легко чего-либо достичь, нужно учиться.</p>
+</li>
+<li id="20231026210215-jcssvcc" updated="20231026210215">
+<p id="20231026210215-yvwc1wb" updated="20231026210215">Надежда на графический интерфейс для настройки/использования системы в конце концов принесёт пользователю только проблемы. В какой-то момент времени пользователь почувствует, что ему нужно знать, что скрывает графический интерфейс.</p>
+</li>
+<li id="20231026210215-bw636bx" updated="20231026210215">
+<p id="20231026210215-nndkmqb" updated="20231026210215">Попытки скрыть сложность системы и сделать её проще за счёт графических утилит и автоматизации рутинных задач обычно приводят к ещё более сложной системе. Вместо этого лучше сделать её более простой и логичной изнутри, разумеется, учитывая ваши задачи, взгляды и предпочтения.</p>
+</li>
+<li id="20231026210215-kius2w7" updated="20231026210215">
+<p id="20231026210215-0mkogy1" updated="20231026210215">Рано или поздно вам потребуется искать информацию в Интернете или в <a href="https://ru.wikipedia.org/wiki/Usenet" title="Usenet">Usenet</a> (если страницы man окажется недостаточно). Уметь искать в сети — это первое, чему должен научиться начинающий пользователь.</p>
+</li>
+<li id="20231026210215-voviun4" updated="20231026210215">
+<p id="20231026210215-erkln8v" updated="20231026210215">В то время как пользователи говорят, что такой-то дистрибутив не похож на какой-то другой, Arch позволяет пользователю вносить желаемый вклад до тех пор, пока это не противоречит принципам и философии Arch.</p>
+</li>
+<li id="20231026210215-pztzaad" updated="20231026210215">
+<p id="20231026210215-x1v4i71" updated="20231026210215">Основное свойство возможности сделать свой вклад заключается в том, что вам не нужно разрешение, чтобы его сделать. Никто не может остановить вас при написании того, что вы лично находите полезным, даже если «силы, которые существуют» не считают это благодеянием. Напишите это и поместите в User Contributions форум. Если людям это понравится, вы получите ответ. Даже если предположить, что все вокруг это не оценят, разве вас это будет волновать, если для вас польза очевидна?</p>
+</li>
+<li id="20231026210215-vcaz8ce" updated="20231026210215">
+<p id="20231026210215-hpva9zl" updated="20231026210215">Не надо требовать от разработчиков утилит и документации. Попытайтесь понять цель и философию Arch — это то, что отличает Arch от других.</p>
+</li>
+<li id="20231026210215-zto4qg7" updated="20231026210215">
+<p id="20231026210215-z8l0iiu" updated="20231026210215">Единственный бинарный дистрибутив, где собрано всё так, как задумали разработчики без каких-либо изменений в исходном коде. По этой причине и появился миф о стабильности Arch Linux.</p>
+</li>
+</ul>
+</div>
+<script src="appearance/icons/material/icon.js?2.10.11"></script>
+<script src="stage/build/export/protyle-method.js?2.10.11"></script>
+<script src="stage/protyle/js/lute/lute.min.js?2.10.11"></script>    
+<script>
+    window.siyuan = {
+      config: {
+        appearance: { mode: 1, codeBlockThemeDark: "github-dark", codeBlockThemeLight: "arduino-light" },
+        editor: { 
+          codeLineWrap: true,
+          codeLigatures: false,
+          plantUMLServePath: "https://www.plantuml.com/plantuml/svg/~1",
+          codeSyntaxHighlightLineNum: false,
+          katexMacros: JSON.stringify({}),
+        }
+      },
+      languages: {copy:"Copy"}
+    };
+    const previewElement = document.getElementById('preview');
+    Protyle.highlightRender(previewElement, "stage/protyle");
+    Protyle.mathRender(previewElement, "stage/protyle", false);
+    Protyle.mermaidRender(previewElement, "stage/protyle");
+    Protyle.flowchartRender(previewElement, "stage/protyle");
+    Protyle.graphvizRender(previewElement, "stage/protyle");
+    Protyle.chartRender(previewElement, "stage/protyle");
+    Protyle.mindmapRender(previewElement, "stage/protyle");
+    Protyle.abcRender(previewElement, "stage/protyle");
+    Protyle.htmlRender(previewElement);
+    Protyle.plantumlRender(previewElement, "stage/protyle");
+    document.querySelectorAll(".protyle-action__copy").forEach((item) => {
+      item.addEventListener("click", (event) => {
+            let text = item.parentElement.nextElementSibling.textContent.trimEnd();
+            text = text.replace(/ /g, " "); // Replace non-breaking spaces with normal spaces when copying
+            navigator.clipboard.writeText(text);
+            event.preventDefault();
+            event.stopPropagation();
+      })
+    });
+</script></body></html>
