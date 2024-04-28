@@ -14,7 +14,7 @@
 
 ---
 
-**[<kbd> <br> Wiki <br> </kbd>](wiki)** 
+**[<kbd> <br> Wiki <br> </kbd>](https://github.com/omores/linux/wiki)** 
 **[<kbd> <br> --- <br> </kbd>][Quick Start]** 
 **[<kbd> <br> --- <br> </kbd>][Configure]** 
 **[<kbd> <br> --- <br> </kbd>][Contribute]**
