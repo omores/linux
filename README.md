@@ -51,5 +51,13 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 [Quick Start]: https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
 [License]: LICENSE
 
+<!----------------------------------{ Badges }--------------------------------->
 
-<!----------------------------------{ Thanks }--------------------------------->
+[Badge Workflow]: https://github.com/hyprwm/Hyprland/actions/workflows/ci.yaml/badge.svg
+
+[Badge Issues]: https://img.shields.io/github/issues/hyprwm/Hyprland
+[Badge Pull Requests]: https://img.shields.io/github/issues-pr/hyprwm/Hyprland
+[Badge Language]: https://img.shields.io/github/languages/top/hyprwm/Hyprland
+[Badge License]: https://img.shields.io/github/license/hyprwm/Hyprland
+[Badge Lines]: https://img.shields.io/tokei/lines/github/hyprwm/Hyprland
+[Badge Hi Mom]: https://img.shields.io/badge/Hi-mom!-ff69b4
