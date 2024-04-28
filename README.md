@@ -5,7 +5,6 @@
 <br>
 
 ![Badge Workflow] 
-[![Badge License]][License] 
 ![Badge Language] 
 [![Badge Pull Requests]][Pull Requests] 
 [![Badge Issues]][Issues] 
@@ -55,9 +54,9 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 
 [Badge Workflow]: https://github.com/hyprwm/Hyprland/actions/workflows/ci.yaml/badge.svg
 
-[Badge Issues]: https://img.shields.io/github/issues/hyprwm/Hyprland
-[Badge Pull Requests]: https://img.shields.io/github/issues-pr/hyprwm/Hyprland
-[Badge Language]: https://img.shields.io/github/languages/top/hyprwm/Hyprland
-[Badge License]: https://img.shields.io/github/license/hyprwm/Hyprland
-[Badge Lines]: https://img.shields.io/tokei/lines/github/hyprwm/Hyprland
+[Badge Issues]: https://img.shields.io/github/issues/omores/linux
+[Badge Pull Requests]: https://img.shields.io/github/issues-pr/omores/linux
+[Badge Language]: https://img.shields.io/github/languages/top/omores/linux
+[Badge License]: https://img.shields.io/github/license/omores/linux
+[Badge Lines]: https://img.shields.io/tokei/lines/github/omores/linux
 [Badge Hi Mom]: https://img.shields.io/badge/Hi-mom!-ff69b4
