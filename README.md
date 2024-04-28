@@ -4,7 +4,6 @@
 
 <br>
 
-![Badge Workflow] 
 ![Badge Language] 
 [![Badge Pull Requests]][Pull Requests] 
 [![Badge Issues]][Issues] 
@@ -52,7 +51,6 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 
 <!----------------------------------{ Badges }--------------------------------->
 
-[Badge Workflow]: https://github.com/hyprwm/Hyprland/actions/workflows/ci.yaml/badge.svg
 
 [Badge Issues]: https://img.shields.io/github/issues/omores/linux
 [Badge Pull Requests]: https://img.shields.io/github/issues-pr/omores/linux
