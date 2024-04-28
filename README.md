@@ -8,7 +8,7 @@
 ![Badge Hi Mom]<br>
 
 <br>
-This is my linux base 
+Это мой личный репозиторий archlinux и всего такого
 <br>
 <br>
 
