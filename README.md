@@ -1,6 +1,6 @@
 <div align = center>
 
-<img src="https://raw.githubusercontent.com/vaxerski/Hyprland/main/assets/header.svg" width="750" height="300" alt="banner">
+<img src="" width="750" height="300" alt="banner">
 
 <br>
 
@@ -10,11 +10,7 @@
 ![Badge Hi Mom]<br>
 
 <br>
-
-Hyprland is a dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
-
-It provides the latest Wayland features, is highly customizable, has all the eyecandy, the most powerful plugins,
-easy IPC, much more QoL stuff than other wlr-based compositors and more...
+This is my linux base 
 <br>
 <br>
 
