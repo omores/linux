@@ -1,7 +1,5 @@
 <div align = center>
 
-<img src="" width="750" height="300" alt="banner">
-
 <br>
 
 ![Badge Language] 
