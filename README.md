@@ -2,7 +2,8 @@
 
 <br>
 
-![Badge Language] 
+![Badge Language]
+[![Badge Discord][Discord]
 [![Badge Pull Requests]][Pull Requests] 
 [![Badge Issues]][Issues] 
 ![Badge Hi Mom]<br>
@@ -46,6 +47,7 @@ This is my linux base
 <!----------------------------------{ Badges }--------------------------------->
 
 
+[Discord]: https://img.shields.io/discord/:1135562920860844102
 [Badge Issues]: https://img.shields.io/github/issues/omores/linux
 [Badge Pull Requests]: https://img.shields.io/github/issues-pr/omores/linux
 [Badge Language]: https://img.shields.io/github/languages/top/omores/linux
