@@ -47,7 +47,7 @@ This is my linux base
 <!----------------------------------{ Badges }--------------------------------->
 
 
-[Badge Discord]: https://img.shields.io/discord/:1135562920860844102
+[Badge Discord]: https://img.shields.io/discord/:1137810974355767397
 [Badge Issues]: https://img.shields.io/github/issues/omores/linux
 [Badge Pull Requests]: https://img.shields.io/github/issues-pr/omores/linux
 [Badge Language]: https://img.shields.io/github/languages/top/omores/linux
