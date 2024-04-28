@@ -3,7 +3,6 @@
 <br>
 
 ![Badge Language]
-![Badge Discord]
 [![Badge Pull Requests]][Pull Requests] 
 [![Badge Issues]][Issues] 
 ![Badge Hi Mom]<br>
