@@ -14,10 +14,10 @@
 
 ---
 
-**[<kbd> <br> Install <br> </kbd>][Install]** 
-**[<kbd> <br> Quick Start <br> </kbd>][Quick Start]** 
-**[<kbd> <br> Configure <br> </kbd>][Configure]** 
-**[<kbd> <br> Contribute <br> </kbd>][Contribute]**
+**[<kbd> <br> Wiki <br> </kbd>](wiki/Название_страницы)** 
+**[<kbd> <br> --- <br> </kbd>][Quick Start]** 
+**[<kbd> <br> --- <br> </kbd>][Configure]** 
+**[<kbd> <br> --- <br> </kbd>][Contribute]**
 
 ---
 
@@ -32,14 +32,13 @@
 
 [Configure]: https://wiki.hyprland.org/Configuring/Configuring-Hyprland/
 [Stars]: https://starchart.cc/hyprwm/Hyprland
-[Hypr]: https://github.com/hyprwm/Hypr
 
 [Pull Requests]: https://github.com/hyprwm/Hyprland/pulls
 [Issues]: https://github.com/hyprwm/Hyprland/issues
 [Todo]: https://github.com/hyprwm/Hyprland/projects?type=beta
 
 [Contribute]: https://wiki.hyprland.org/Contributing-and-Debugging/
-[Install]: https://wiki.hyprland.org/Getting-Started/Installation/
+[Wiki]: hssss
 [Quick Start]: https://wiki.hyprland.org/Getting-Started/Master-Tutorial/
 [License]: LICENSE
 
